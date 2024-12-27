@@ -24,4 +24,4 @@ jobs:
       - name: Run build with Gradle Wrapper
         env:
           VERSION: ${{ env.TAG }}
-        #run: cd backend && gradle jib --image vovochkastelmashchuk/nest2d
+        run: cd backend && gradle jib --image aa/nest2d
