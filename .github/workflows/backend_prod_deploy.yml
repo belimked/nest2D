@@ -1,4 +1,4 @@
-name: Publish backend image
+name: test to go
 
 on:
   push:
