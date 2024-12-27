@@ -1,9 +1,7 @@
 name: test to go
 
 on:
-  push:
-    tags:
-      - '*'
+  push
 
 jobs:
   publish_backend_image:
